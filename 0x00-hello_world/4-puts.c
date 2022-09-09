@@ -1,10 +1,11 @@
-#!/bin/bash
+
 #include <stdio.h>
 /**
+ * main - print the string in the put function
  *
  * Description: using the main function
  * this program prints "programming is like builing a multilingusl puzzle
- * Return o
+ * Return: o
  */
 int main(void)
 {
