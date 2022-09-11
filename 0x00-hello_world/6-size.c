@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - print strings in the put function
  *
- * Decription: using main function
+ * Description: using main function
  * program to printn prints the size of various types on the computer it is compiled and run on.
  *
  * Return:0
@@ -10,7 +11,7 @@
 int main(void)
 {
 	char c;
-	int i;
+	int 1;
 	long 11;
 	long long 111;
 	float f;
