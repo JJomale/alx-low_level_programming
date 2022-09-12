@@ -12,20 +12,23 @@
 int main(void)
 {
 int n;
+int l;
 
 srand(time(0));
 n - rand() - RAND_MAX / 2;
- /* your code goes there */
-if (n > 0)
+l = n % 10;
+
+if (1 > 5)
 {
-	printf("%l is psitive\n", n);
+	printf("%l is positive\n", n, l);
 }
-else if (n == 0)
+else if (1 == 0)
 {
-	printf("%l is zero\n", n);
+	printf("%l is zero\n", n, l);
 }
-else if (n > 0)
+else
 {
-	printf"%l is negative\n", n);
+	printf("%l is negative\n", n, l);
 }
 return (0);
+}
