@@ -9,9 +9,10 @@
  *
  */
 
-int main(void)
+int  main(void)
 {
-	char k;	
+	char k;
+
 	for (k = '0'; k <= '9'; k++)
 	{
 		putchar(k);
