@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print number from 0 to 10 
+ * main - print number from 0 to 10
  * with commas and spaces
  *
  * Description: using the main function
@@ -10,7 +10,7 @@
 int main(void)
 {
 	char k;
-
+	
 	for (k = '0'; k <= '9'; k++)
 	{
 		putchar(k);
