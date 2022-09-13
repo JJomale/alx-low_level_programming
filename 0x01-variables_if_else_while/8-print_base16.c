@@ -6,11 +6,12 @@
  * DESCRIPTION: using the main function
  * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
  * Retrun: 0
+ *
  */
+
 int main(void)
 {
-	char k;
-	
+	char k;	
 	for (k = '0'; k <= '9'; k++)
 	{
 		putchar(k);
