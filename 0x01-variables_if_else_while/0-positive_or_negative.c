@@ -17,11 +17,11 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 l = n % 10;
 
-if (1 > 5)
+if (l > 5)
 {
 	printf("%l is positive\n", n, l);
 }
-else if (1 == 0)
+else if (l == 0)
 {
 	printf("%l is zero\n", n, l);
 }
