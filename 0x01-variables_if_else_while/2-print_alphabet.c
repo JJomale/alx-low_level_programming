@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 /**
  * main - program that print the alphabets in lowercase
  *
