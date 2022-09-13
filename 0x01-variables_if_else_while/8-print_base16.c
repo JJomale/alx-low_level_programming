@@ -5,7 +5,7 @@
  *
  * DESCRIPTION: using the main function
  * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
- * Retrun: 0
+ * Return: 0
  *
  */
 
