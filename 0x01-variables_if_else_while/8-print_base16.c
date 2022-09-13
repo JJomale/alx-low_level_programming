@@ -12,12 +12,12 @@ int main(void)
 	for  (k = '0'; k <= '9'; k++)
 	{
 		putchar(k);
-		if (k != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
 	}
+	for (k = 'a'; k = 'f'; k++)
+		{
+			putchar(k);
+		}
+	
 	putchar('\n');
 	return (0);
 }
