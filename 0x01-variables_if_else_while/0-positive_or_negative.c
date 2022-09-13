@@ -19,15 +19,15 @@ l = n % 10;
 
 if (l > 5)
 {
-	printf("%l is positive\n", n, l);
+	printf("lsast digit of %d is %d and is greater than s\n", n, l);
 }
 else if (l == 0)
 {
-	printf("%l is zero\n", n, l);
+	printf("last didgit of %d is %d and is 0\n", n, l);
 }
 else
 {
-	printf("%l is negative\n", n, l);
+	printf("last digit of %d is %d and is less than 0 and not 0\n", n, l);
 }
 return (0);
 }
