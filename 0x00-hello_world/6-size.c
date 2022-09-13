@@ -11,8 +11,8 @@ int main(void)
 {
 	char c;
 	int 1;
-	long 11;
-	long long 111;
+	long int 11;
+	long long int 111;
 	float f;
 
 	printf("size of a char: %lb byte(s)\n", sizeof(c));
