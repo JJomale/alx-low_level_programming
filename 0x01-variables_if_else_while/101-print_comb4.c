@@ -17,7 +17,7 @@ int main(void)
 			{
 				if (first_n == second_n || first_n == third_n || second_n == third_n)
 				{
-					continue
+					continue;
 				}
 				if (first_n > second_n || first_n > third_n || second_n > third_n)
 				{
