@@ -26,7 +26,7 @@ int main(void)
 				putchar((first_n % 10) + '0');
 				putchar((second_n % 10) + '0');
 				putchar((third_n % 10) + '0');
-				
+
 				if (first_n < 7 || second_n < 8 || third_n < 9)
 				{
 					putchar(',');
