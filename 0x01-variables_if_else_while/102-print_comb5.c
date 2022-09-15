@@ -9,7 +9,7 @@ int main(void)
 {
 	int first_k;
 	int second_k;
-	
+
 	for (first_k = 0; first_k <= 99; first_k++)
 	{
 		for (second_k = first_k + 1; second_k <= 99; second_k++)
