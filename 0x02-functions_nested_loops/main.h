@@ -6,9 +6,9 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 int isalower(int c);
 int isalpha(int c);
-int print-sign(int n);
+int print_sign(int n);
 int _abs(int);
-int print last_digits(int)
+int print_last_digits(int)
 void jack_bauer(void);
 void time_table(void);
 int add(int a, int b);
