@@ -19,7 +19,6 @@ int main(void)
 			putchar(' ');
 			putchar(second_k / 10 + '0');
 			putchar(second_k % 10 + '0');
-			
 			if (first_k < 98 || second_k < 99)
 			{
 				putchar(',');
