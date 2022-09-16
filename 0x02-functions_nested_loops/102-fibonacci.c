@@ -1,27 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ *  main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, fibsum;
-	float tot_sum;
+	int counter;
+	long int num_1, num_2, fib_n;
 
-	while (1)
+	num_1 = 1;
+	num_2 = 2;
+	printf("%ld, %ld", num_1, num_2);
+	for (counter = 0; counter < 48; counter++)
 	{
-		fibsum = fib1 + fib2;
-		if (fibsum > 4000000)
-			break;
+		fib_n = num_1 + num_2;
+		printf(", %ld", fib_n);
+		num_1 = num_2;
 
-		if ((fibsum % 2) == 0)
-			tot_sum += fibsum;
-
-		fib1 = fib2;
-		fib2 = fibsum;
+		num_2 = fib_n;
 	}
-	printf("%.0f\n", tot_sum);
+	printf("\n");
 	return (0);
 }
