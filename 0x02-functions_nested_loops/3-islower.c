@@ -5,7 +5,7 @@
  * is a lower case alphabet
  *
  * @c: character to check
- * 
+ *
  * Return: 1 if it is a lower case alphabet
  * 0 if it is otherwise
  */
