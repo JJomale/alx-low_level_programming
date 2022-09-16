@@ -48,7 +48,8 @@ void print_times_table(int n)
 		}
 	}
 	if (n == 0)
-	
+	{
 		_putchar(n + '0');
 		_putchar('\n');
+	}
 }
