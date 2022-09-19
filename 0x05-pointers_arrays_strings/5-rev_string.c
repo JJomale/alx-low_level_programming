@@ -7,7 +7,7 @@
  *
  * Return: nothing
  */
-void rev_string(cha *s)
+void rev_string(char *s)
 {
 	int i, tmp, len = _strlen(s);
 
