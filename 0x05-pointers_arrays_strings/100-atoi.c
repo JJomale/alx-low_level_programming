@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -19,5 +20,5 @@ int _atoi(char *s)
 		else if (num > 0)
 			break;
 	} while (*s++);
-	return (num * sing);
+	return (num * sign);
 }
