@@ -1,34 +1,23 @@
-#include <stdio.h>
 #include "main.h"
+#include "2-strlen.c"
 
 /**
- * re_string - reverses a tring
- * @s: string to be reserved
+ * rev_string -  a function that reverses a string
  *
- * Return: nothing
+ * @s: pointer
+ *
+ * Return: void
  */
+
 void rev_string(char *s)
 {
-	int i, tmp, len = _strlen(s);
+	char c;
+	int i;
 
-	for (i = 0; i < len / 2; i++)
+	for (i = 0; i < _strlen(s) / 2; i++)
 	{
-		tmp = *(s + i);
-	*(s + i) = *(s + len - i - 1);
-	*(s + len - i - 1) = tmp;
+		c = s[i];
+		s[i] = s[_strlen(s) - i - 1];
+		s[_strlen(s) - i - 1] = c;
 	}
-}
-/**
- * _strlen - return the lenght of a string
- * @s: string
- *
- * REtrun: the lenght of the givn string
- */
-int _strlen(char *s)
-{
-	int len = 0;
-	while (*(s + len) != '\0')
-	len++
-
-		:return (len);
 }
