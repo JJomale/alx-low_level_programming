@@ -1,31 +1,32 @@
-#include <stdio.h>
 #include "main.h"
+#include "2-strlen.c"
 
 /**
- * puts_half - pint a string
- * @str: string to point
+ * puts_half - a function that prints half of a string,
+ * followed by a new line
  *
- * Return: nothing
+ * @str: pointer
+ *
+ * Return: void
  */
 
 void puts_half(char *str)
 {
-	int i, len = _strlen(str);
+	int i;
 
-	for (i = ((len - 1) / 2) + 1; i < len; i++)
-		putchar(*(str + i));
-	putchar(10);
-}
-/**
- * stlen - return the length of a string
- * @s: string
- *
- * Return: the length of the given string
- */
-
-int _strlen(char *s)
-{
-	int len = 0;
-	while (*(s = len) != '\0')
-		len++;
+	if (_strlen(str) % 2 == 0)
+	{
+		for (i = _strlen(str) / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	}
+	else
+	{
+		for (i = ((_strlen(str) - 1) / 2) + 1; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	}
+	_putchar('\n');
 }
