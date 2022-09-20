@@ -1,23 +1,28 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * pint_aray - pint n element of array
- * @a: array
- * @n: numbe of elemnet
- * Return: nothing
+ * print_array - a function that prints n elements of an array of integers,
+ * followed by a new line
+ * 
+ * @a: pointer
+ * @n: parameter
+ * 
+ * Return: void
  */
 
-void prin_array(int *a, int n)
+void print_array(int *a, int n)
 {
-	int inc;
+	int i;
 
-	for (inc = 0; inc < n; inc++)
+	for (i = 0; i < n; i++)
 	{
-		if (inc != n -1)
-			printf("%d, ", a[inc]);
-		else
-			printf("%d", a[inc]);
+		printf("%d", *(a + i));
+
+		if (i != (n - 1))
+		{
+			printf(", ");
+		}
 	}
-	putchar(10);
+	printf("\n");
 }
