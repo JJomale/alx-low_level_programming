@@ -1,22 +1,24 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * puts - pint evey other character
- * @str: sting
- * Retun: nothing
+ * puts2 - a function that prints every other character of a string,
+ * starting with the first character, followed by a new line
+ *
+ * @str: pointer
+ *
+ * Return: void
  */
 
-void Put2(char *str)
+void puts2(char *str)
 {
-	int i = 0;
+	int i;
 
-	while (*(str + I) != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
-			putchar((*(str + i)):
-					i++;
+		{
+			_putchar(str[i]);
+		}
 	}
-	putchar(10);
+	_putchar('\n');
 }
-
