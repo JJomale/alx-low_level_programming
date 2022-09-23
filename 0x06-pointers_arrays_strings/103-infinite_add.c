@@ -17,10 +17,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		count1++;
 	while (*(n2 + count2) != '\0')
 		count2++;
-
 	if (count1 >= count2)
 		bg = count1;
-
 	else
 		bg = count2;
 	if (size_r <= bg + 1)
