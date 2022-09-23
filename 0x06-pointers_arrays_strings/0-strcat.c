@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _strcat - a function that concatenates two strings
+ * * _strcat - a function that concatenates two strings
  *
  * @dest: pointer
  * @src: pointer
