@@ -1,18 +1,30 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * *_strstr - description
+ * @haystack: string
+ * @needle: pointer
+ * Return: pointer
  */
-int main(void)
-{
-       	char *s = "hello, world";
-	char *f = "world";
-	char *t;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
+
+char *_strstr(char *haystack, char *needle)
+{
+	int i, j;
+
+	for (i = 0; haystack[i] > '\0'; i++)
+	{
+		for (j = i; haystack[j] > '\0' && needle[j - i] > '\0'; j++)
+		{
+			if (haystack[j] != needle[j - i])
+			{
+				break;
+			}
+		}
+		if (needle[j - i] == '\0')
+		{
+			return (haystack + i);
+		}
+	}
 	return (0);
 }
