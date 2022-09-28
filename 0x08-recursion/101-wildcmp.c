@@ -40,6 +40,7 @@ int checkLast(char *s, int i)
 int checker(char *s1, char *s2, int a, int b, int wildUsed)
 {
 	if (s1[a] != '\0')
+
 	{
 		if (s2[b] == '\0')
 			return (0);
@@ -59,7 +60,9 @@ int checker(char *s1, char *s2, int a, int b, int wildUsed)
 
 		if (wildUsed == -1)
 			return (0);
+
 		return (checker(s1, s2, a, wildUsed, wildUsed));
+
 	}
 	if (s2[b] != '\0')
 		return (checkLast(s2, b));
