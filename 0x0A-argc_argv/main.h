@@ -1,6 +1,5 @@
-0x09. C - Static Libraries
-
-libmy.a - Create the static library libmy.a containing all the functions listed below:
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -22,5 +21,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-Without libraries what have we? We have no past and no future
-create_static_lib.sh - A script that creates a static library called liball.a from all the .c files that are in the current directory.
+
+#endif
