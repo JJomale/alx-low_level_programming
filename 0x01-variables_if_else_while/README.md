@@ -1,1 +1,2 @@
-variable if else while
+0x10. C - Variadic functions
+
