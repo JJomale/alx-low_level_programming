@@ -6,8 +6,7 @@
 /**
  * main - Program Entry
  *
- * Description: Program that takes 
- * 4 arguments where 2 are
+ * Description: Program that takes 4 arguments where 2 are
  * int variables plus an operator to perform
  * a function between the two numbers
  *
